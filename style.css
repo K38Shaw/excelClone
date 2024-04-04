@@ -1,0 +1,41 @@
+
+body{
+    padding:0px;
+    margin:0px;
+}
+
+
+#formulaBar{
+    width: 100%;
+    position: fixed;
+}
+
+#cellsArea{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+}
+
+.column{
+    width: 4em;
+    text-align: center;
+}
+
+
+.headerCell{
+    border: 1px black solid;
+    width: 4em;
+    text-align: center;
+    background-color: #b9adad;
+}
+
+.cell{
+    border: 1px black solid;
+    width: 4em;
+    text-align: center;
+    height: 1em;
+}
+
+.selected{
+    background-color: yellow;
+}
