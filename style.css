@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+header{
+    width: 98vw;
+    position: fixed;
+    left: 0.5vw;
+    top: 0.5vw;
+
+}
+.selected{
+    background-color:blue;
+}
+#cellsArea{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+input{
+    width: 98vw;
+    border: 1px solid #000;
+    
+}
+input::placeholder{
+    color: #777;
+    font-size: 1.2em;
+}
+
+.headerCell{
+    background-color: darkgrey;
+    width: 4em;
+    border: 1px solid #000;
+    text-align: center;
+}
+.cell{
+    width: 4em;
+    height: 1em;
+    border: 1px solid #111;
+    text-align: center;
+}
